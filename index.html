@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Wallet</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section class="home">
+        <div>
+            <h3> Mis Finanzas</h3>
+            <div class="ingreso">
+                <h4>Ingresos mensuales <input id="ingreso" type="text" placeholder="MXN" ></h4>
+                <button  onclick="getValue()"> OK</button>
+            </div>
+            <div>
+                <button id="addgastos" onclick="agregarInput()">Agregar Gasto</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

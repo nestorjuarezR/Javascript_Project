@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgb(89, 177, 89);
+}
+
+.home {
+    height: auto;
+    padding: 10px;
+    margin: 4%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 7px;
+    box-shadow: 4px 2px 15px 0.5px rgba(0, 0, 0, 0.288);
+}
+
+.ingreso {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
